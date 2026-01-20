@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eaeaea;
+    font-family: Arial, sans-serif;
+}
+
+.shadow-box {
+    width: 250px;
+    height: 130px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 8px;
+
+    /* Multi-color box shadow (same structure as your reference) */
+    box-shadow:
+        16px 4px 19px 8px rgba(255, 0, 0, 0.6),
+        20px 8px 25px 10px rgba(0, 128, 255, 0.5),
+        24px 12px 30px 12px rgba(0, 0, 0, 0.4);
+
+    /* Vendor prefixes (optional nowadays, but included as requested) */
+    -webkit-box-shadow:
+        16px 4px 19px 8px rgba(255, 0, 0, 0.6),
+        20px 8px 25px 10px rgba(0, 128, 255, 0.5),
+        24px 12px 30px 12px rgba(0, 0, 0, 0.4);
+
+    -moz-box-shadow:
+        16px 4px 19px 8px rgba(255, 0, 0, 0.6),
+        20px 8px 25px 10px rgba(0, 128, 255, 0.5),
+        24px 12px 30px 12px rgba(0, 0, 0, 0.4);
+}
